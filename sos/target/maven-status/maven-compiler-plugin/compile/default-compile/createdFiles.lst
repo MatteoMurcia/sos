@@ -1,0 +1,7 @@
+sos\model\manager\ClienteManager.class
+sos\utils\Utils$TestExclStrat.class
+sos\controlers\LoginServlet.class
+sos\utils\Utils.class
+sos\model\persistence\EMF.class
+sos\model\vo\Cliente.class
+sos\model\persistence\ClienteDAO.class

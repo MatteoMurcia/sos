@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+		<persistence-unit name="soshome" transaction-type="RESOURCE_LOCAL">
+		 
+		<class>sos.model.vo.Cliente</class>
+	
+	  <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://soshome.ctxezehuf7aw.us-east-1.rds.amazonaws.com:3306/matteo"/>
+      <property name="javax.persistence.jdbc.user" value="matteo"/>
+      <property name="javax.persistence.jdbc.password" value="matteo100"/>
+	  <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="eclipselink.jdbc.property.useSSL" value="false" />
+        <property name="eclipselink.jdbc.property.requireSSL" value="false" />
+	<property name="eclipselink.jdbc.property.verifyServerCertificate" value="false" />
+            
+	</properties>
+	
+	</persistence-unit>
+</persistence>
