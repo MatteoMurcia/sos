@@ -3,6 +3,11 @@
 		<persistence-unit name="soshome" transaction-type="RESOURCE_LOCAL">
 		 
 		<class>sos.model.vo.Cliente</class>
+		<class>sos.model.vo.Cotizacion</class>
+		<class>sos.model.vo.Listaenviados</class>
+		<class>sos.model.vo.Materiales</class>
+		<class>sos.model.vo.Proveedor</class>
+		<class>sos.model.vo.Servicio</class>
 	
 	  <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://soshome.ctxezehuf7aw.us-east-1.rds.amazonaws.com:3306/matteo"/>

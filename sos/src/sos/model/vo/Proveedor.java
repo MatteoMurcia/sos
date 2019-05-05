@@ -10,7 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
-
+@Table(name = "PROVEEDOR")
 public class Proveedor implements Serializable {
 
 	   

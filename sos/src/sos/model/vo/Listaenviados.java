@@ -10,7 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
-
+@Table(name = "lISTAENVIADOS")
 public class Listaenviados implements Serializable {
 
 	   

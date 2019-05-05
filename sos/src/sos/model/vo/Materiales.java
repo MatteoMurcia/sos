@@ -10,7 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
-
+@Table(name = "MATERIALES")
 public class Materiales implements Serializable {
 
 	   

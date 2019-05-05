@@ -10,7 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
-
+@Table(name = "CLIENTE")
 public class Cliente implements Serializable {
 
 	@Id

@@ -37,8 +37,8 @@ public EntityManager em=null;
         try{
             em =EMF.get().createEntityManager();
             em.getTransaction().begin();
-            TypedQuery<Proveedor> query = (TypedQuery<Proveedor>) em.createQuery("SELECT p FROM Proveedor p WHERE p.cedulap = :cedulap",Proveedor.class);
-            query.setParameter("cedulap", cedulap);
+            TypedQuery<Proveedor> query = (TypedQuery<Proveedor>) em.createQuery("SELECT p FROM Proveedor p WHERE p.cedulap = :cedula",Proveedor.class);
+            query.setParameter("cedula", cedulap);
             em.getTransaction().commit();
            
             return (Proveedor) query.getResultList().get(0);
